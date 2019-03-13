@@ -2,7 +2,7 @@
 
 return [
 
-    'anchorHeadlines' => function ($field, $headlines = 'h2') {
+    'anchorHeadlines' => function ($field, $headlines = 'h2|h3') {
 
         $headlinesPattern = is_array($headlines) ? implode('|', $headlines) : $headlines;
 
